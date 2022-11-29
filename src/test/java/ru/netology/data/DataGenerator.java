@@ -42,7 +42,7 @@ public class DataGenerator {
 
     public static String getRandomPassword() {
         var faker = new Faker();
-        var password = faker.internet().password(8,50);
+        var password = faker.internet().password(8, 50);
         return password;
     }
 

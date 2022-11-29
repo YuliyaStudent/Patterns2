@@ -15,7 +15,6 @@ import static ru.netology.data.DataGenerator.getRandomPassword;
 public class IBankTest {
 
 
-
     @BeforeEach
     void setup() {
         open("http://localhost:9999");
